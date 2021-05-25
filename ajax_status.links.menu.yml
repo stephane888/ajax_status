@@ -1,0 +1,6 @@
+ajax_status.settings_form:
+  title: Ajax status
+  description: Configure Ajax status.
+  parent: system.admin_config_system
+  route_name: ajax_status.settings_form
+  weight: 10

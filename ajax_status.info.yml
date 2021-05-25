@@ -1,0 +1,6 @@
+name: Ajax status
+type: module
+description: permet de renvoyer un message personnalisé lors des requettes ajaxs
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

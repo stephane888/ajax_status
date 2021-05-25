@@ -1,0 +1,15 @@
+ajax_status.example:
+  path: '/ajax-status/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\ajax_status\Controller\AjaxStatusController::build'
+  requirements:
+    _permission: 'access content'
+
+ajax_status.settings_form:
+  path: '/admin/config/system/ajax-status'
+  defaults:
+    _title: 'Ajax status settings'
+    _form: 'Drupal\ajax_status\Form\SettingsForm'
+  requirements:
+    _permission: 'administer ajax_status configuration'

@@ -1,0 +1,4 @@
+administer ajax_status configuration:
+  title: 'Administer ajax_status configuration'
+  description: 'Optional description.'
+  restrict access: true
