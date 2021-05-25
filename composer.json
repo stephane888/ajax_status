@@ -1,0 +1,13 @@
+{
+    "name": "stephane888/ajax_status",
+    "description": "gestion des requetes Ajax sur drupal8/9",
+    "type": "drupal-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stephane888",
+            "email": "kksasteph888@gmail.com"
+        }
+    ],
+    "require": {}
+}

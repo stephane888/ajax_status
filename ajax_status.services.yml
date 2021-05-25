@@ -1,0 +1,16 @@
+services:
+  ajax_status.event_subscriber:
+    class: Drupal\ajax_status\EventSubscriber\AjaxStatusSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }
+      
+  ajax_status.codes:
+    class: Drupal\ajax_status\Services\Codes
+    
+  ajax_status.messages:
+    class: Drupal\ajax_status\Services\Messages
+    
+  ajax_status.status:
+    class: Drupal\ajax_status\Services\Status
+    arguments: ['@ajax_status.codes','@ajax_status.messages']
