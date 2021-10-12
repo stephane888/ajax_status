@@ -1,7 +1,7 @@
 {
     "name": "stephane888/ajax_status",
     "description": "gestion des requetes Ajax sur drupal8/9",
-    "type": "drupal-module",
+    "type": "drupal-module-custom",
     "license": "MIT",
     "authors": [
         {
